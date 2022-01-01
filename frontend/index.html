@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROUPOMANIA reseau social</title>
+
+    <!--Icon scoout cdn-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+
+    <!--Css-->
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <nav>
+        <!--container début-->
+        <div class="container">
+            <!--logo début-->
+            <h2 class="logogroupomania">Logo</h2>
+            <!--logo fin-->
+
+            <!--Barre de recherche début-->
+            <div class="barrederecherche">
+                <i class="fas fa-search"></i>
+                <input type="recherche" placeholder="Barre de recherche pour les utilisateurs">
+            </div>
+            <!--Barre de recherche fin-->
+
+            <!--create début-->
+            <div class="creationpost">
+                <label class="btn btn-primary" for="creerunpost">Créer</label>
+                <div class="profil">
+                    <img class="img" src="./images/julie.jpg" alt="">
+                </div>
+            </div>
+            <!--create fin-->
+
+
+
+        </div>
+        <!--container fin-->
+
+    </nav>
+
+    <!---Main début-->
+    <main>
+        <div class="container">
+
+            <!---Gauche début-->
+            <div class="gauche">
+                blablablablablablabablablbla
+                blablablablablablabablablbla
+                blablablablablablabablablbla
+                blablablablablablabablablbla
+                blablablablablablabablablbla
+
+            </div>
+            <!---Gauche fin-->
+
+            <!---Milieu début-->
+            <div class="milieu">
+                <!--Stories à la une début-->
+                <div class="stories">
+                    <div class="story">
+                        <div class="profil">
+                            <img src="./images/julie.jpg" alt="">
+                        </div>
+                        <p class="nom">
+                            Votre Story
+                        </p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profil">
+                            <img src="./images/quentin.jpg" alt="">
+                        </div>
+                        <p class="nom">
+                            Quentin Lazz
+                        </p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profil">
+                            <img src="./images/julien.jpg" alt="">
+                        </div>
+                        <p class="nom">
+                            Julien Loo
+                        </p>
+                    </div>
+
+                    <div class="story">
+                        <div class="profil">
+                            <img src="./images/mathys.jpg" alt="">
+                        </div>
+                        <p class="nom">
+                            Mathys Huv
+                        </p>
+                    </div>
+                </div>
+                <!--Stories à la une fin-->
+
+                <form class="creationpost">
+                    <div class="profil">
+                        <img src="./images/julie.jpg" alt="">
+                    </div>
+                    <input type="text" placeholder="Qu'avez vous à nous raconter Julie ?">
+                    <input type="submit" value="Poster" class="btn btn-primary">
+
+                </form>
+
+            </div>
+            <!---Milieu fin-->
+
+            <!---Droite début-->
+            <div class="droite">
+                <a class="profils">
+                    <div class="profil">
+                        <img src="./images/julie.jpg" alt="">
+                    </div>
+
+                    <div class="handle">
+                        <h4>Julie Foucal</h4>
+                        <p class="text-muted">
+                            @juliefoucal
+                        </p>
+                    </div>
+                </a>
+
+
+                <!--Side bar début-->
+                <div class="sidebar">
+                    <a href="" class="menu-item active">
+                        <span>
+                            <i class="fas fa-home"></i>
+                            <h3>Home</h3>
+                        </span>
+                    </a>
+
+                    <a href="" class="menu-item notifications">
+                        <span>
+                            <i class="fas fa-bell"><small class="notification-count">5+</small></i>
+                            <h3>Notifications</h3>
+                        </span>
+
+                        <!--pop up début-->
+                        <div class="popup">
+                            <div>
+                                <div class="profil">
+                                    <img src="./images/julie.jpg" alt="">
+                                </div>
+                                <div class="notificationbody">
+                                    <b>Mathys Huv</b> a commenté votre post
+                                    <small class="text-muted">IL Y A 1 JOUR</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profil">
+                                    <img src="./images/quentin.jpg" alt="">
+                                </div>
+                                <div class="notificationbody">
+                                    <b>Quentin Lazz</b> a partagé votre photo
+                                    <small class="text-muted">IL Y A 4 MINUTES</small>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="profil">
+                                    <img src="./images/julien.jpg" alt="">
+                                </div>
+                                <div class="notificationbody">
+                                    <b>Julien Loo</b> a aimé votre photo
+                                    <small class="text-muted">IL Y A 34 MINUTES</small>
+                                </div>
+                            </div>
+                        </div>
+                        <!--pop up fin-->
+
+                    </a>
+
+                    <a href="" class="menu-item">
+                        <span>
+                            <i class="fab fa-wpexplorer"></i>
+                            <h3>Explore</h3>
+                        </span>
+                    </a>
+
+                    <a href="" class="menu-item">
+                        <span>
+                            <i class="far fa-envelope message-notification"></i>
+                            <h3>Messages</h3>
+                        </span>
+                    </a>
+
+                    <a href="" class="menu-item">
+                        <span>
+                            <i class="fas fa-palette"></i>
+                            <h3>Theme</h3>
+                        </span>
+                    </a>
+
+                    <a href="" class="menu-item active">
+                        <span>
+                            <i class="fas fa-tools"></i>
+                            <h3>Settings</h3>
+                        </span>
+                    </a>
+
+                    <input type="text" value="Créer" class="btn btn-primary">
+                </div>
+                <!--Side bar fin-->
+
+            </div>
+            <!---Droite fin-->
+
+        </div>
+
+
+
+    </main>
+    <!---Main fin-->
+
+
+</body>
+
+</html>
