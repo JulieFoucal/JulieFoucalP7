@@ -255,60 +255,158 @@ main .container .droite .profils {
 
 
 /*Milieu*/
-
-.milieu .stories{
+.milieu{
+    height: 100%;
     display: flex;
-    justify-content:space-between;
-    height:14rem;
+    flex-direction: column;
+}
+.milieu .stories {
+    display: flex;
+    justify-content: space-between;
+    height: 14rem;
     gap: 0.5rem;
-    
+
 }
 
-.milieu .stories .story{
-    padding:0.5rem;
+.milieu .stories .story {
+    padding: 0.5rem;
     border-radius: 2rem;
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    color:white;
-    font-size:0.8rem;
-    width:100%;
-    position:relative;
-    overflow:hidden;
+    color: white;
+    font-size: 0.8rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
 }
 
-.milieu .stories .story::before{
+.milieu .stories .story::before {
     content: "";
     display: block;
     width: 100%;
     height: 5rem;
-    background:linear-gradient(white, black);
-    position:absolute;
-    bottom:0;
+    background: linear-gradient(white, black);
+    position: absolute;
+    bottom: 0;
 }
 
-.milieu .stories .story .nom{
+.milieu .stories .story .nom {
     z-index: 2;
 }
 
-.milieu .stories .story:nth-child(1){
-    background:url(./images/danse.jpg)
-    no-repeat center center/cover;
+.milieu .stories .story:nth-child(1) {
+    background: url(./images/danse.jpg) no-repeat center center/cover;
 }
 
-.milieu .stories .story:nth-child(2){
-    background:url(./images/diner1.jpg)
-    no-repeat center center/cover;
+.milieu .stories .story:nth-child(2) {
+    background: url(./images/diner1.jpg) no-repeat center center/cover;
 }
 
-.milieu .stories .story:nth-child(3){
-    background:url(./images/diner2.jpg)
-    no-repeat center center/cover;
+.milieu .stories .story:nth-child(3) {
+    background: url(./images/diner2.jpg) no-repeat center center/cover;
 }
 
-.milieu .stories .story:nth-child(4){
-    background:url(./images/golf.jpg)
-    no-repeat center center/cover;
+.milieu .stories .story:nth-child(4) {
+    background: url(./images/golf.jpg) no-repeat center center/cover;
 }
+
+/* création de post*/
+
+.milieu .creationpost {
+    width: 90%;
+    height: 6vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+    background-color: white;
+    padding: 0.5rem;
+    border-radius: 2rem;
+}
+
+.milieu.creationpost[type="text"] {
+    justify-content: start;
+    width: 100%;
+    padding-left: 2rem;
+    background: transparent;
+    color: rgb(211, 57, 57);
+    margin-left: 2rem;
+}
+
+
+/*Publications*/
+
+.publication{
+    width: 80%;
+    background: rgb(230, 221, 221);
+    border: radius 2rem;
+    padding: 2rem;
+    margin: 1rem 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+.photopublication{
+    width: 100%;
+}
+
+.milieu .publications .publication {
+    background: rgb(230, 221, 221);
+    border: radius 2rem;
+    padding: 2rem;
+    margin: 1rem 0;
+    font-size: 0.85rem;
+    line-height: 1.5;
+}
+
+.milieu .aimepar{
+    display: flex;
+}
+
+.milieu .aimepar span{
+    width: 1.8rem;
+    height: 1.5rem;
+    display:block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: -0.5rem;
+}
+
+.milieu .publication .head{
+    display: flex;
+    justify-content:space-between;
+}
+
+.milieu .publication .utilisateur{
+    display: flex;
+    gap: 1rem;
+}
+
+.milieu .publication .photos{
+    border: radius 2rem;
+    overflow: hidden;
+    margin: 0.7rem 0;
+}
+
+.milieu .publication .boutons-action{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size: 1.4rem;
+    margin: 0.6rem;
+}
+
+.spanphoto{
+    width: 1.8rem;
+    height: 1.5rem;
+    display:block;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 1px solid rgb(0, 0, 0);
+    margin-left: -0.5rem;
+}
+
+
 
