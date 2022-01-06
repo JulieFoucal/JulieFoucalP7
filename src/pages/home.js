@@ -1,16 +1,19 @@
-<!DOCTYPE html>
-<html lang="en">
+import React, {Component} from 'react';
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+class Home extends React.Component{
+render(){
+    return(
+        <div>
+            <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>GROUPOMANIA reseau social</title>
 
-    <!--Icon scoout cdn-->
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+    {/* <!--Icon scoout cdn--> */}
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css"/>
 
-    <!--Css-->
+    {/* <!--Css--> */}
     <link rel="stylesheet" href="./Css/style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
@@ -18,67 +21,67 @@
 
 <body>
     <nav>
-        <!--container début-->
+        {/* <!--container début--> */}
         <div class="container">
-            <!--logo début-->
+            {/* <!--logo début--> */}
             <h2 class="logogroupomania">
-                <img class="logo" src="./images/icon-above-font.png" alt="">
+                <img class="logo" src="./images/icon-above-font.png" alt=""/>
             </h2>
-            <!--logo fin-->
+            {/* <!--logo fin--> */}
 
-            <!--Barre de recherche début-->
+            {/* <!--Barre de recherche début--> */}
             <div class="barrederecherche">
                 <i class="fas fa-search"></i>
-                <input type="recherche" placeholder="Barre de recherche pour les utilisateurs">
+                <input type="recherche" placeholder="Barre de recherche pour les utilisateurs"/>
             </div>
-            <!--Barre de recherche fin-->
+            {/* <!--Barre de recherche fin--> */}
 
-            <!--create début-->
+            {/* <!--create début--> */}
             <div class="creationpost">
                 <label class="btn btn-primary" for="creerunpost">Créer</label>
                 <div class="profil">
-                    <img class="img" src="./images/julie.jpg" alt="">
+                    <img class="img" src="./images/julie.jpg" alt=""/>
                 </div>
             </div>
-            <!--create fin-->
+            {/* <!--create fin--> */}
 
 
 
         </div>
-        <!--container fin-->
+        {/* <!--container fin--> */}
 
     </nav>
 
-    <!---Main début-->
+    {/* <!---Main début--> */}
     <main>
-        <div class="container">
+        <div class="container"/>
 
-            <!---Gauche début-->
+            {/* <!---Gauche début--> */}
             <div class="gauche">
                 <div class="messages">
                     <div class="heading">
                         <h4>Messages</h4><i class="fas fa-edit"></i>
                     </div>
 
-                    <!---Barre de recherche message contact début-->
+                    {/* <!---Barre de recherche message contact début--> */}
                     <div class="barredereche">
                         <i class="fas fa-search"></i>
-                        <input type="search" placeholder="recherchemessage" id="recherche-message">
+                        <input type="search" placeholder="recherchemessage" id="recherche-message"/>
                     </div>
-                    <!---Barre de recherche message contact fin-->
+                    {/* <!---Barre de recherche message contact fin--> */}
 
-                    <!---Catégorie message début-->
+                    {/* <!---Catégorie message début--> */}
                     <div class="categorie">
                         <h6 class="active">Premier</h6>
                         <h6>Génrale</h6>
                         <h6 class="message-request">Request (8)</h6>
                     </div>
-                    <!---Catégorie message fin-->
+                    {/* <!---Catégorie message fin--> */}
 
-                    <!---Contenu message début-->
+                    {/* <!---Contenu message début--> */}
                     <div class="message">
                         <div class="profil">
-                            <img src="./images/julien.jpg" alt="">
+                            <img src="./images/julien.jpg" alt=""/>
                             <div class="active"></div>
                         </div>
                         <div class="message-contenu">
@@ -89,7 +92,7 @@
                     
                     <div class="message">
                         <div class="profil">
-                            <img src="./images/mathys.jpg" alt="">
+                            <img src="./images/mathys.jpg" alt=""/>
                         </div>
                         <div class="message-contenu">
                             <h5>Mathys Huv</h5>
@@ -99,7 +102,7 @@
 
                     <div class="message">
                         <div class="profil">
-                            <img src="./images/quentin.jpg" alt="">
+                            <img src="./images/quentin.jpg" alt=""/>
                             <div class="active"></div>
                         </div>
                         <div class="message-contenu">
@@ -111,15 +114,15 @@
     </div>
 
     
-        <!---Contenu message fin-->
+        {/* <!---Contenu message fin--> */}
 
-        <!---friend request début-->
+        {/* <!---friend request début--> */}
         <div class="friend-requests">
             <h4>Request</h4>
             <div class="request">
                 <div class="info">
                     <div class="profil">
-                        <img src="./images/honorine.jpg" alt="">
+                        <img src="./images/honorine.jpg" alt=""/>
                     </div>
                     <div>
                         <h5>Honorine Amb</h5>
@@ -138,7 +141,7 @@
             <div class="request">
                 <div class="info">
                     <div class="profil">
-                        <img src="./images/corinne.jpg" alt="">
+                        <img src="./images/corinne.jpg" alt=""/>
                     </div>
                     <div>
                         <h5>Corine Rob</h5>
@@ -152,18 +155,18 @@
                 </div>
             </div>
         </div>
-        <!---friend request fin-->
+        {/* <!---friend request fin--> */}
         </div>
-        <!---Gauche fin-->
+        {/* <!---Gauche fin--> */}
 
 
-        <!---Milieu début-->
+        {/* <!---Milieu début--> */}
         <div class="milieu">
-            <!--Stories à la une début-->
+            {/* <!--Stories à la une début--> */}
             <div class="stories">
                 <div class="story">
                     <div class="profil">
-                        <img src="./images/julie.jpg" alt="">
+                        <img src="./images/julie.jpg" alt=""/>
                     </div>
                     <p class="nom">
                         Votre Story
@@ -172,7 +175,7 @@
 
                 <div class="story">
                     <div class="profil">
-                        <img src="./images/quentin.jpg" alt="">
+                        <img src="./images/quentin.jpg" alt=""/>
                     </div>
                     <p class="nom">
                         Quentin Lazz
@@ -181,7 +184,7 @@
 
                 <div class="story">
                     <div class="profil">
-                        <img src="./images/julien.jpg" alt="">
+                        <img src="./images/julien.jpg" alt=""/>
                     </div>
                     <p class="nom">
                         Julien Loo
@@ -190,20 +193,20 @@
 
                 <div class="story">
                     <div class="profil">
-                        <img src="./images/mathys.jpg" alt="">
+                        <img src="./images/mathys.jpg" alt=""/>
                     </div>
                     <p class="nom">
                         Mathys Huv
                     </p>
                 </div>
             </div>
-            <!--Stories à la une fin-->
+            {/* <!--Stories à la une fin--> */}
 
-            <form class="creationpost">
+            <form class="creationpost"/>
                 <div class="profil">
-                    <img src="./images/julie.jpg" alt="">
+                    <img src="./images/julie.jpg" alt=""/>
                 </div>
-                <input type="text" placeholder="Qu'avez vous à nous raconter Julie ?">
+                <input type="text" placeholder="Qu'avez vous à nous raconter Julie ?"/>
                 <input type="submit" value="Poster" class="btn btn-primary">
 
             </form>
@@ -211,12 +214,12 @@
 
             <div class="publications">
 
-                <!--Publication 1 début-->
+                {/* <!--Publication 1 début--> */}
                 <div class="publication">
                     <div class="head">
                         <div class="utilisateur">
                             <div class="profil">
-                                <img src="./images/mathys.jpg" alt="">
+                                <img src="./images/mathys.jpg" alt=""/>
                             </div>
                             <div class="ingo">
                                 <h3>Mathys Huv</h3>
@@ -229,7 +232,7 @@
                         </span>
                     </div>
                     <div class="photos">
-                        <img class="photopublication" src="./images/friends.jpg" alt="">
+                        <img class="photopublication" src="./images/friends.jpg" alt=""/>
                     </div>
 
                     <div class="boutons-action">
@@ -245,9 +248,9 @@
                     </div>
 
                     <div class="aimepar">
-                        <span><img src="./images/julie.jpg" alt=""></span>
-                        <span><img src="./images/quentin.jpg" alt=""></span>
-                        <span><img src="./images/julien.jpg" alt=""></span>
+                        <span><img src="./images/julie.jpg" alt=""/></span>
+                        <span><img src="./images/quentin.jpg" alt=""/></span>
+                        <span><img src="./images/julien.jpg" alt=""/></span>
                         <p>Aimé par <b>Julie Foucal</b>et 25 autres personnes</p>
                     </div>
 
@@ -256,13 +259,13 @@
                     </div>
                 </div>
             </div>
-            <!--Publication 1 fin-->
-            <!--Publication 2 début-->
+            {/* <!--Publication 1 fin-->
+            <!--Publication 2 début--> */}
             <div class="publication">
                 <div class="head">
                     <div class="utilisateur">
                         <div class="profil">
-                            <img src="./images/julien.jpg" alt="">
+                            <img src="./images/julien.jpg" alt=""/>
                         </div>
                         <div class="ingo">
                             <h3>Julien Loo</h3>
@@ -275,7 +278,7 @@
                     </span>
                 </div>
                 <div class="photos">
-                    <img class="photopublication" src="./images/airsoft.jpg" alt="">
+                    <img class="photopublication" src="./images/airsoft.jpg" alt=""/>
                 </div>
 
                 <div class="boutons-action">
@@ -291,9 +294,9 @@
                 </div>
 
                 <div class="aimepar">
-                    <span><img src="./images/mathys.jpg" alt=""></span>
-                    <span><img src="./images/quentin.jpg" alt=""></span>
-                    <span><img src="./images/julie.jpg" alt=""></span>
+                    <span><img src="./images/mathys.jpg" alt=""/></span>
+                    <span><img src="./images/quentin.jpg" alt=""/></span>
+                    <span><img src="./images/julie.jpg" alt=""/></span>
                     <p>Aimé par <b>Mathys Huv</b>et 39 autres personnes</p>
                 </div>
 
@@ -301,13 +304,13 @@
 
                 </div>
             </div>
-            <!--Publication 2 fin-->
-            <!--Publication 2 début-->
+            {/* <!--Publication 2 fin--> */}
+            {/* <!--Publication 2 début--> */}
             <div class="publication">
                 <div class="head">
                     <div class="utilisateur">
                         <div class="profil">
-                            <img src="./images/quentin.jpg" alt="">
+                            <img src="./images/quentin.jpg" alt=""/>
                         </div>
                         <div class="ingo">
                             <h3>Quentin Lazz</h3>
@@ -320,7 +323,7 @@
                     </span>
                 </div>
                 <div class="photos">
-                    <img class="photopublication" src="./images/woman.jpg" alt="">
+                    <img class="photopublication" src="./images/woman.jpg" alt=""/>
                 </div>
 
                 <div class="boutons-action">
@@ -336,9 +339,9 @@
                 </div>
 
                 <div class="aimepar">
-                    <span><img class="spanphoto" src="./images/julie.jpg" alt=""></span>
-                    <span><img class="spanphoto" src="./images/quentin.jpg" alt=""></span>
-                    <span><img class="spanphoto" src="./images/julien.jpg" alt=""></span>
+                    <span><img class="spanphoto" src="./images/julie.jpg" alt=""/></span>
+                    <span><img class="spanphoto" src="./images/quentin.jpg" alt=""/></span>
+                    <span><img class="spanphoto" src="./images/julien.jpg" alt=""/></span>
                     <p>Aimé par <b>Julie Foucal </b>et 39 autres personnes</p>
                 </div>
 
@@ -347,16 +350,16 @@
                 </div>
             </div>
 
-            <!--Publication 2 fin-->
+            {/* <!--Publication 2 fin--> */}
 
         </div>
-        <!---Milieu fin-->
+        {/* <!---Milieu fin--> */}
 
-        <!---Droite début-->
+        {/* <!---Droite début--> */}
         <div class="droite">
             <a class="profils">
                 <div class="profil">
-                    <img src="./images/julie.jpg" alt="">
+                    <img src="./images/julie.jpg" alt=""/>
                 </div>
 
                 <div class="handle">
@@ -368,7 +371,7 @@
             </a>
 
 
-            <!--Side bar début-->
+            {/* <!--Side bar début--> */}
             <div class="sidebar">
                 <a href="" class="menu-item active">
                     <span>
@@ -383,11 +386,11 @@
                         <h3>Notifications</h3>
                     </span>
 
-                    <!--pop up début-->
+                    {/* <!--pop up début--> */}
                     <div class="popup">
                         <div>
                             <div class="profil">
-                                <img src="./images/julie.jpg" alt="">
+                                <img src="./images/julie.jpg" alt=""/>
                             </div>
                             <div class="notificationbody">
                                 <b>Mathys Huv</b> a commenté votre post
@@ -396,7 +399,7 @@
                         </div>
                         <div>
                             <div class="profil">
-                                <img src="./images/quentin.jpg" alt="">
+                                <img src="./images/quentin.jpg" alt=""/>
                             </div>
                             <div class="notificationbody">
                                 <b>Quentin Lazz</b> a partagé votre photo
@@ -405,7 +408,7 @@
                         </div>
                         <div>
                             <div class="profil">
-                                <img src="./images/julien.jpg" alt="">
+                                <img src="./images/julien.jpg" alt=""/>
                             </div>
                             <div class="notificationbody">
                                 <b>Julien Loo</b> a aimé votre photo
@@ -413,7 +416,7 @@
                             </div>
                         </div>
                     </div>
-                    <!--pop up fin-->
+                    {/* <!--pop up fin--> */}
 
                 </a>
 
@@ -445,18 +448,21 @@
                     </span>
                 </a>
 
-                <input type="text" value="Créer" class="btn btn-primary">
+                <input type="text" value="Créer" class="btn btn-primary"/>
             </div>
-            <!--Side bar fin-->
+            {/* <!--Side bar fin--> */}
         </div>
-        <!---Droite fin-->
+        {/* <!---Droite fin--> */}
         </div>
 
 
     </main>
-    <!---Main fin-->
+    {/* <!---Main fin--> */}
 
 
 </body>
-
-</html>
+        </div>
+    )
+}
+}
+export default Home;

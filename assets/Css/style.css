@@ -93,7 +93,7 @@ nav .barrederecherche {
     padding: 0.5rem 0;
 }
 
-nav .barrederecherche input[type="recherche"] {
+.barrederecherche input[type="recherche"] {
     background: transparent;
     width: 35vw;
     margin-left: 1rem;
@@ -420,4 +420,126 @@ main .container .droite .profils {
     overflow: hidden;
     border: 1px solid rgb(0, 0, 0);
     margin-left: -0.5rem;
+}
+
+/*Gauche*/
+
+main .container .gauche {
+    height: max-content;
+    position: sticky;
+    top: -18rem;
+    bottom: 0;
+}
+
+.gauche .messages {
+    background-color: white;
+    border-radius: 2rem;
+    padding: 0.5rem;
+}
+
+.gauche .messages .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.gauche .messages {
+    font-size: 1.4rem;
+}
+
+.gauche .messages .barredereche {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.gauche .messages .categorie {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.gauche .messages .categorie h6 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 4px solid grey;
+    padding-bottom: 0.5rem;
+    font-size: 0.85rem;
+}
+
+.gauche .messages .categorie .active {
+    border-color: rgb(23, 70, 70);
+
+}
+
+.gauche .messages .message-request{
+    color: blue;
+}
+
+
+
+.gauche .messages .message {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    align-items: start;
+}
+
+.gauche .messages .profil{
+    position: relative;
+    overflow:hidden;
+}
+
+.gauche .messages .profil{
+    border-radius:50%;
+}
+
+
+
+.gauche .messages .message:last-child {
+    margin: 0;
+}
+
+.gauche .messages .message p {
+    font-size: 0.7rem;
+}
+
+.gauche .messages .message .profil .active {
+    width: 0.8rem;
+    height: 0.8rem;
+    border-radius: 50%;
+    background-color:rgb(15, 255, 15);
+    position:absolute;
+    bottom: 0.7rem;
+    right: 0.6rem;
+}
+
+
+/*demande d'amis/*/
+
+.gauche .friend-requests{
+    margin-top: 1rem;
+}
+
+.gauche .friend-requests h4{
+    color: grey;
+    margin: 1rem 0;
+}
+
+.gauche .request{
+    background-color:white;
+    padding: 1rem;
+    border-radius :2px;
+    margin-bottom: 0.7rem;
+}
+
+.gauche .request .info{
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.gauche .request .action{
+    display: flex;
+    gap: 1rem;
 }
