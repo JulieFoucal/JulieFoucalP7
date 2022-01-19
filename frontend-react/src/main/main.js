@@ -1,4 +1,6 @@
 import {useState} from 'react';
+import Gauche from '../main-container-gauche/gauche';
+
 
 export default function Main() {
 
@@ -13,6 +15,7 @@ export default function Main() {
         // <!---Main début-->
     <main>
         <div class="container">
+            <Gauche/>
         </div>
         </main>
 

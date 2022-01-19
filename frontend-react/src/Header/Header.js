@@ -9,7 +9,7 @@ export default function Header() {
         showForm(true);
     }
 
-    let dom = (
+    return (
         <nav>
         {/* <!--container début--> */}
         <div className="container">
@@ -41,5 +41,4 @@ export default function Header() {
         </div>
     </nav>
     );
-    return dom;
 }
