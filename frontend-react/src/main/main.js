@@ -1,5 +1,8 @@
 import {useState} from 'react';
 import Gauche from '../main-container-gauche/gauche';
+import Milieu from './main-container-milieu/Milieu';
+import Droite from '../main-container-droite/Droite';
+
 
 
 export default function Main() {
@@ -11,15 +14,12 @@ export default function Main() {
         showForm(true);
     }
 
-    let dom = (
-        // <!---Main début-->
+    ruturn (
     <main>
         <div class="container">
-            <Gauche/>
+            <Gauche/><Milieu/><Droite/>
         </div>
         </main>
-
-
     );
-    return dom;
+    
 }
