@@ -1,13 +1,12 @@
-import Header from './Header/Header';
-import Main from './Main/Main';
+import Header from './Components/Header';
 import { Fragment } from 'react';
 
-
+import logo from 'images/logogroupomania'
 
 function App() {
   return (
     <Fragment>
-    <Header/><Main/>
+    <Header></Header>
 </Fragment>
   );
 }
