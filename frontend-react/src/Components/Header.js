@@ -5,7 +5,7 @@ const Header = () => {
             <nav>
             <div className="container">
                 <h2 className="logogroupomania">
-                    <img className="logo" src="./images/icon-above-font.png" alt=""/>
+                    <img className="logo" src="./images/logo.png" alt=""/>
                 </h2>
         
                 <div className="barrederecherche">
@@ -27,3 +27,4 @@ const Header = () => {
     );
 }
 
+export default Header;
