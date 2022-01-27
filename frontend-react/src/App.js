@@ -1,7 +1,7 @@
 import Header from './Components/Header';
-import Header from './Components/Droite';
-import Header from './Components/Milieu';
-import Header from './Components/Gauche';
+import Droite from './Components/Droite';
+import Milieu from './Components/Milieu';
+import Gauche from './Components/Gauche';
 
 
 import { Fragment } from 'react';
