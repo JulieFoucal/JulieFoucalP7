@@ -1,11 +1,12 @@
+import Stories from '../Components/Stories';
+
 const Milieu = () => {
 
     return (
         <div>
 <div class="milieu">
-    <div class="stories">
-        </div>
-
+    
+    <Stories></Stories>
 
     <form class="creationpost">
         <div class="profil">

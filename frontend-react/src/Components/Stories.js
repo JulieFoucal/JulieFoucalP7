@@ -1,39 +1,39 @@
 const Stories = () => {
 
     return(
-<div class="stories">
-<div class="story">
-            <div class="profil">
+<div className="stories">
+<div className="story">
+            <div className="profil">
                 <img src="./images/julie.jpg" alt=""/>
             </div>
-            <p class="nom">
+            <p className="nom">
                 Votre Story
             </p>
         </div>
 
-        <div class="story">
-            <div class="profil">
+        <div className="story">
+            <div className="profil">
                 <img src="./images/quentin.jpg" alt=""/>
             </div>
-            <p class="nom">
+            <p className="nom">
                 Quentin Lazz
             </p>
         </div>
 
-        <div class="story">
-            <div class="profil">
+        <div className="story">
+            <div className="profil">
                 <img src="./images/julien.jpg" alt=""/>
             </div>
-            <p class="nom">
+            <p className="nom">
                 Julien Loo
             </p>
         </div>
 
-        <div class="story">
-            <div class="profil">
+        <div className="story">
+            <div className="profil">
                 <img src="./images/mathys.jpg" alt=""/>
             </div>
-            <p class="nom">
+            <p className="nom">
                 Mathys Huv
             </p>
         </div>
