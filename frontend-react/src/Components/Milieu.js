@@ -1,6 +1,7 @@
 const Milieu = () => {
 
     return (
+        <div>
 <div class="milieu">
     <div class="stories">
         <div class="story">
@@ -39,6 +40,7 @@ const Milieu = () => {
             </p>
         </div>
     </div>
+
 
     <form class="creationpost">
         <div class="profil">
@@ -184,7 +186,7 @@ const Milieu = () => {
 
         </div>
     </div>
-
+    </div>
 
 </div>
 )

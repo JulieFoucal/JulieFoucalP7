@@ -4,7 +4,7 @@ const Header = () => {
             <nav>
             <div className="container">
                 <h2 className="logogroupomania">
-                    <img className="logo" src="./Images/logo.png" alt=""/>
+                    <img className="logo" src="./images/logo.png" alt=""/>
                 </h2>
         
                 <div className="barrederecherche">
@@ -14,7 +14,7 @@ const Header = () => {
     
                     <label className="btn btn-primary" htmlFor="creerunpost">Créer</label>
                     <div className="profil">
-                        <img className="img" src="./Images/julie.jpg" alt=""/>
+                        <img className="img" src="./images/julie.jpg" alt=""/>
                     </div>
                 </div>    
         </nav>
